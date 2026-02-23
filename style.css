@@ -42,18 +42,21 @@ color: white;
     justify-content: center;
     gap: 20px;
     font-size: 2rem;
+   
 }
 .score_darkscreen{
     color: white;
 }
 .box{
     margin-top: 7vh;
+    
 }
 .box_text{
  font-size: 2rem;
  display: inline;
  background-color: rgb(185, 143, 88);
  border-radius: 10px;
+ padding:10px;
 }
 footer{
     margin-top: 42vh;
@@ -61,38 +64,14 @@ footer{
     line-height: 5vh;
 }
 .themebutton{
-    border-radius: 14%;
+    border-radius: 8%;
     font-size: 1rem;
+    padding: 5px;
 }
 .themebutton:hover{
-    font-size: 0.9rem;
+   background-color: blueviolet;
 }
 .btn_blck_scrn{
     background-color: black;
     color: white;
 }
-@media (min-width: 768px) {
-    header{
-     height: 10vh;
-    }
-    footer{
-        margin-top: 45vh;
-        
-    }
-    .main_images{
-        height: 150px;
-        width: 150px;
-        margin: 40px;
-    }
-    .box{
-        margin-top: 7vh;
-    }
-    
-}
-@media (min-width: 1280px){
-    footer{
-        margin-top: 20vh;
-        
-    }
-}
-
