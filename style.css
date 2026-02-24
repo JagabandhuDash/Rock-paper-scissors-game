@@ -67,13 +67,10 @@ footer{
     line-height: 5vh;
 }
 .themebutton{
-<<<<<<< HEAD
-    border-radius: 8px;
-=======
-    border-radius: 8%;
->>>>>>> 54c3cd467c753c21d63c052225d8e00906a75515
-    font-size: 1rem;
-    padding: 5px;
+  border-radius: 8px;
+  border-radius: 8%;
+  font-size: 1rem;
+  padding: 5px;
 }
 .themebutton:hover{
    background-color: blueviolet;
@@ -81,8 +78,8 @@ footer{
 .btn_blck_scrn{
     background-color: black;
     color: white;
-<<<<<<< HEAD
+
 }
-=======
-}
->>>>>>> 54c3cd467c753c21d63c052225d8e00906a75515
+
+
+
