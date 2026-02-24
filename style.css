@@ -8,14 +8,24 @@ body{
     display: flex;
     flex-direction: column;
     gap: 20vh;
+    height: 100vh;
+    width: 100%;
 }
 .darkscreen{
     background-color: black;
 }
 header{
+display: flex;
+align-items: center;
+justify-content: center;
 background-color: rgb(27, 27, 87);
-height: 8vh;
+height: 10vh;
 color: white;
+width: 100%;
+position: fixed;
+top: 0;
+left: 0;
+
 }
 .header_darkscreen{
     background-color: aqua;
@@ -24,9 +34,14 @@ color: white;
 .header_name{
    line-height: 10vh;
    overflow: none;
+
+}
+#h_btn_box{
+position: absolute;
+right: 40px;
 }
 .button_images{
-    margin-top: 40px;
+    margin-top: 30vh;
 }
 .main_images{
   height: 150px;
@@ -35,9 +50,12 @@ color: white;
   border-radius: 50%;
   object-fit: cover;
   margin: 5px;
+  transition: 0.3s;
 }
 .main_images:hover{
-    opacity: 0.5;
+    box-shadow: 0 0 20px blueviolet;
+    opacity: 0.8;
+    cursor: pointer;
 }
 .scoreboard{
     display: flex;
@@ -57,23 +75,29 @@ color: white;
 .box_text{
  font-size: 2rem;
  display: inline;
- background-color: rgb(185, 143, 88);
+ background-color: rgb(10, 234, 36);
  border-radius: 10px;
  padding:10px;
 }
 footer{
-    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: hotpink;
-    line-height: 5vh;
+    height: 10vh;
+    width: 100%;
+    gap: 10px;
 }
+
 .themebutton{
   border-radius: 8px;
-  border-radius: 8%;
   font-size: 1rem;
   padding: 5px;
+  transition: 0.3s;
 }
 .themebutton:hover{
-   background-color: blueviolet;
+   background-color: rgb(88, 17, 154);
 }
 .btn_blck_scrn{
     background-color: black;
