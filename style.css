@@ -197,12 +197,13 @@ footer{
     width: 100%;
     gap: 10px;
     box-shadow: 0 0 8px black;
+   
 }
 
 
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1550px) {
   /* CSS styles for desktop screens go here */
   footer{
     margin-top: 5.1vh;
