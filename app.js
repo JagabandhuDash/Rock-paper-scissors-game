@@ -1,4 +1,4 @@
-let btn = document.querySelector(".themebutton");
+let btn = document.querySelector("#switch");
 btn.addEventListener("click",()=>{
  document.querySelector("body").classList.toggle("darkscreen");
  document.querySelector(".scoreboard").classList.toggle("score_darkscreen");
