@@ -4,7 +4,7 @@
     text-align: center;
 }
 body{
-    background-color: aqua;
+    background-color: lightblue;
     display: flex;
     flex-direction: column;
     gap: 20vh;
@@ -192,26 +192,18 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: hotpink;
+    background-color: lightblue;
     height: 10vh;
     width: 100%;
     gap: 10px;
-}
-
-.themebutton{
-  border-radius: 8px;
-  font-size: 1rem;
-  padding: 5px;
-  transition: 0.3s;
-}
-.themebutton:hover{
-   background-color: rgb(88, 17, 154);
-}
-.btn_blck_scrn{
-    background-color: black;
-    color: white;
-
+    box-shadow: 0 0 8px black;
 }
 
 
 
+
+@media screen and (min-width: 1024px) {
+  /* CSS styles for desktop screens go here */
+  footer{
+    margin-top: 5.1vh;
+}
