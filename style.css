@@ -31,11 +31,6 @@ left: 0;
     background-color: aqua;
     color: black;
 }
-.header_name{
-   line-height: 10vh;
-   overflow: none;
-
-}
 
 
 .switch {
@@ -210,9 +205,19 @@ footer{
   }
 }
 
-@media screen and(max-width: 600px) {
-  body{
-  background-color: green;
-  }
+@media screen and (max-width: 500px) {
+  .button_images{
+    margin-top: 20vh;
+}
+.scoreboard{
+margin-top: 1vh;
+}
+.header_name{
+  font-size: 20px;
+}
+.switch{
+  font-size: 10px;
+   right: 0px;
+}
 
 }
